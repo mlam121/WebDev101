@@ -40,49 +40,19 @@ form > p {
 
 /* LINK STYLES */
 a:link {
-  text-decoration: none;
-  border: 1px solid white;
-  background-color: rgb(255 255 255 / .25);
-  border-radius:5px;
-  padding: 3px 6px;
-  margin: .5rem;
-  font-weight: bold; 
-  color: #993399;
-}
+            color: #993399;
+        }
 a:visited {
   color: #937393;
 }
-a:focus {
-  text-decoration: none;
-  border: 1px solid white;
-  background-color: white;
-  border-radius:5px;
-  padding: 3px 6px;
-  margin: .5rem;
-  font-weight: bold; 
-  color: #C700F2;
-}
-a:hover {
-  text-decoration: none;
-  border: 1px solid white;
-  background-color: white;
-  border-radius:5px;
-  padding: 3px 6px;
-  margin: .5rem;
-  font-weight: bold; 
-  color: #C700F2;
-}
+a:hover, a:focus {
+                color: #C700F2;
+                background-color: #fff;
+            }
 a:active {
-  text-decoration: none;
-  border: 1px solid white;
-  background-color: white;
-  border-radius:5px;
-  padding: 3px 6px;
-  margin: .5rem;
-  font-weight: bold; 
-  color: #C700F2;
-  text: fuchsia
-}
+            color: fuchsia;
+            background-color: #fff;
+        }
 
 /* TABLE STYLES */
 table {
@@ -90,15 +60,16 @@ table {
   border-collapse: collapse;
   margin: 0 auto;
 }
-tr:nth-child(1) {background-color: tomato;} {
-  padding: 1em;
-}
+tr:first-child {
+            background-color: tomato;
+        }
 tr:nth-child(even) {background-color: wheat;} {
 }
 tr:nth-child(2n+3) {background-color: blanchedalmond;} {
 }
-tr:nth-last-child(1) {background-color: darksalmon;} {
-}
+tr:last-child {
+        background-color: darksalmon;
+        }
 th, td {
   text-align: left;
   padding: 8px 30px;
@@ -116,10 +87,12 @@ td.day {
 }
 
 
+
 /* MONTHLY STYLES */
 #monthly p {
   margin: .5em 2em 0;
 }
+
 #monthly p::first-letter{
   font-size: 1.25em;
   font-weight: normal;
@@ -134,10 +107,12 @@ td.day {
   padding: .2em 1em;
   color: white;
 }
-#monthly h3:nth-of-type(odd) { background-color: chocolate; 
-} 
-#monthly h3:nth-of-type(even) { background-color: olive; 
-} 
+#monthly h3:nth-of-type(odd) {
+            background-color: chocolate;
+        }
+#monthly h3:nth-of-type(even) {
+            background-color: olive;
+        } 
 
 /* ENTERTAINMENT STYLES */
 #entertainment li {
@@ -147,11 +122,10 @@ td.day {
   content: url(star-icon-1.png);
   margin-right: .5em;
 }
-li.fave::after {
-  content: "(Fan Favorite)";
-  margin-left: .5em;
-  color: olive
-}
+#entertainment li.fave::after {
+            content: " (Fan Favorite)";
+            color: darkolivegreen;
+        }
 
 
 /* PAGE FORMATTING STYLES */
