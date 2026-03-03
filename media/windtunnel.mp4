@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd" profiles="urn:mpeg:dash:profile:isoff-live:2011" type="static" mediaPresentationDuration="PT23.1S" maxSegmentDuration="PT4.0S" minBufferTime="PT8.0S">
+  <ProgramInformation>
+	</ProgramInformation>
+  <ServiceDescription id="0">
+	</ServiceDescription>
+  <Period id="0" start="PT0.0S">
+    <AdaptationSet id="0" contentType="video" startWithSAP="1" segmentAlignment="true" bitstreamSwitching="true" frameRate="30/1" maxWidth="320" maxHeight="240" par="73:60" lang="und">
+      <Representation id="0" mimeType="video/mp4" codecs="avc1.42c00d" bandwidth="310919" width="320" height="240" sar="73:80">
+        <BaseURL>https://pdx.cdn.nv.instructuremedia.com/originals/o-rDguhwTnKp8j946FMTFe5zrwMmBHkXM/transcodings/t-fuHSCCaRDZ72Q84QN5Bjv2yp7o18iQh/</BaseURL>
+        <SegmentTemplate timescale="15360" initialization="init-stream$RepresentationID$.m4s?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wZHguY2RuLm52Lmluc3RydWN0dXJlbWVkaWEuY29tL29yaWdpbmFscy9vLXJEZ3Vod1RuS3A4ajk0NkZNVEZlNXpyd01tQkhrWE0vdHJhbnNjb2RpbmdzL3QtZnVIU0NDYVJEWjcyUTg0UU41Qmp2MnlwN28xOGlRaC8qLm00cyIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2MDAzMTUxNn19fV19&amp;Signature=BGQ5naOI8qHlDtNeBoINuViA917NXtlZbJZiiSBIcfwri9Mc0ROew813xNd1itDD0MfSiEPX3ODtRPWMlwKJi4Oy-oCzl2-vcZcDQD4UFH94svnBxwDmek9gdRVT46NPB8enK7V920FjPgL-YqZzeyzeIg0HzAS3O1Zcjktt9ACXsW3vO6wv7cN9OLVFItmG5bkgkaLuWpC6yw0KaBhT5JcQ3qxr4jtQBlG3XOmDqyG1Fe55AlGVlSQwbMpxcpgRzLX2xubm-4B~NHYVAs3Qh-0kWqMVFyG9Xcp21QrKy7hBGCS1Hj0MaZPjDOmH61PmAW1DkaNhpErDh9ogkBHcHg__&amp;Key-Pair-Id=APKAJLP4NHW7VFATZNDQ" media="chunk-stream$RepresentationID$-$Number%05d$.m4s?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wZHguY2RuLm52Lmluc3RydWN0dXJlbWVkaWEuY29tL29yaWdpbmFscy9vLXJEZ3Vod1RuS3A4ajk0NkZNVEZlNXpyd01tQkhrWE0vdHJhbnNjb2RpbmdzL3QtZnVIU0NDYVJEWjcyUTg0UU41Qmp2MnlwN28xOGlRaC8qLm00cyIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2MDAzMTUxNn19fV19&amp;Signature=BGQ5naOI8qHlDtNeBoINuViA917NXtlZbJZiiSBIcfwri9Mc0ROew813xNd1itDD0MfSiEPX3ODtRPWMlwKJi4Oy-oCzl2-vcZcDQD4UFH94svnBxwDmek9gdRVT46NPB8enK7V920FjPgL-YqZzeyzeIg0HzAS3O1Zcjktt9ACXsW3vO6wv7cN9OLVFItmG5bkgkaLuWpC6yw0KaBhT5JcQ3qxr4jtQBlG3XOmDqyG1Fe55AlGVlSQwbMpxcpgRzLX2xubm-4B~NHYVAs3Qh-0kWqMVFyG9Xcp21QrKy7hBGCS1Hj0MaZPjDOmH61PmAW1DkaNhpErDh9ogkBHcHg__&amp;Key-Pair-Id=APKAJLP4NHW7VFATZNDQ" startNumber="1">
+          <SegmentTimeline>
+            <S t="0" d="61440" r="4"/>
+            <S d="47616"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+      <Representation id="1" mimeType="video/mp4" codecs="avc1.42c00c" bandwidth="161095" width="192" height="144" sar="73:80">
+        <BaseURL>https://pdx.cdn.nv.instructuremedia.com/originals/o-rDguhwTnKp8j946FMTFe5zrwMmBHkXM/transcodings/t-fuHSCCaRDZ72Q84QN5Bjv2yp7o18iQh/</BaseURL>
+        <SegmentTemplate timescale="15360" initialization="init-stream$RepresentationID$.m4s?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wZHguY2RuLm52Lmluc3RydWN0dXJlbWVkaWEuY29tL29yaWdpbmFscy9vLXJEZ3Vod1RuS3A4ajk0NkZNVEZlNXpyd01tQkhrWE0vdHJhbnNjb2RpbmdzL3QtZnVIU0NDYVJEWjcyUTg0UU41Qmp2MnlwN28xOGlRaC8qLm00cyIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2MDAzMTUxNn19fV19&amp;Signature=BGQ5naOI8qHlDtNeBoINuViA917NXtlZbJZiiSBIcfwri9Mc0ROew813xNd1itDD0MfSiEPX3ODtRPWMlwKJi4Oy-oCzl2-vcZcDQD4UFH94svnBxwDmek9gdRVT46NPB8enK7V920FjPgL-YqZzeyzeIg0HzAS3O1Zcjktt9ACXsW3vO6wv7cN9OLVFItmG5bkgkaLuWpC6yw0KaBhT5JcQ3qxr4jtQBlG3XOmDqyG1Fe55AlGVlSQwbMpxcpgRzLX2xubm-4B~NHYVAs3Qh-0kWqMVFyG9Xcp21QrKy7hBGCS1Hj0MaZPjDOmH61PmAW1DkaNhpErDh9ogkBHcHg__&amp;Key-Pair-Id=APKAJLP4NHW7VFATZNDQ" media="chunk-stream$RepresentationID$-$Number%05d$.m4s?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wZHguY2RuLm52Lmluc3RydWN0dXJlbWVkaWEuY29tL29yaWdpbmFscy9vLXJEZ3Vod1RuS3A4ajk0NkZNVEZlNXpyd01tQkhrWE0vdHJhbnNjb2RpbmdzL3QtZnVIU0NDYVJEWjcyUTg0UU41Qmp2MnlwN28xOGlRaC8qLm00cyIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2MDAzMTUxNn19fV19&amp;Signature=BGQ5naOI8qHlDtNeBoINuViA917NXtlZbJZiiSBIcfwri9Mc0ROew813xNd1itDD0MfSiEPX3ODtRPWMlwKJi4Oy-oCzl2-vcZcDQD4UFH94svnBxwDmek9gdRVT46NPB8enK7V920FjPgL-YqZzeyzeIg0HzAS3O1Zcjktt9ACXsW3vO6wv7cN9OLVFItmG5bkgkaLuWpC6yw0KaBhT5JcQ3qxr4jtQBlG3XOmDqyG1Fe55AlGVlSQwbMpxcpgRzLX2xubm-4B~NHYVAs3Qh-0kWqMVFyG9Xcp21QrKy7hBGCS1Hj0MaZPjDOmH61PmAW1DkaNhpErDh9ogkBHcHg__&amp;Key-Pair-Id=APKAJLP4NHW7VFATZNDQ" startNumber="1">
+          <SegmentTimeline>
+            <S t="0" d="61440" r="4"/>
+            <S d="47616"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="1" contentType="audio" startWithSAP="1" segmentAlignment="true" bitstreamSwitching="true" lang="und">
+      <Representation id="2" mimeType="audio/mp4" codecs="mp4a.40.2" bandwidth="36000" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="1"/>
+        <BaseURL>https://pdx.cdn.nv.instructuremedia.com/originals/o-rDguhwTnKp8j946FMTFe5zrwMmBHkXM/transcodings/t-fuHSCCaRDZ72Q84QN5Bjv2yp7o18iQh/</BaseURL>
+        <SegmentTemplate timescale="48000" initialization="init-stream$RepresentationID$.m4s?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wZHguY2RuLm52Lmluc3RydWN0dXJlbWVkaWEuY29tL29yaWdpbmFscy9vLXJEZ3Vod1RuS3A4ajk0NkZNVEZlNXpyd01tQkhrWE0vdHJhbnNjb2RpbmdzL3QtZnVIU0NDYVJEWjcyUTg0UU41Qmp2MnlwN28xOGlRaC8qLm00cyIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2MDAzMTUxNn19fV19&amp;Signature=BGQ5naOI8qHlDtNeBoINuViA917NXtlZbJZiiSBIcfwri9Mc0ROew813xNd1itDD0MfSiEPX3ODtRPWMlwKJi4Oy-oCzl2-vcZcDQD4UFH94svnBxwDmek9gdRVT46NPB8enK7V920FjPgL-YqZzeyzeIg0HzAS3O1Zcjktt9ACXsW3vO6wv7cN9OLVFItmG5bkgkaLuWpC6yw0KaBhT5JcQ3qxr4jtQBlG3XOmDqyG1Fe55AlGVlSQwbMpxcpgRzLX2xubm-4B~NHYVAs3Qh-0kWqMVFyG9Xcp21QrKy7hBGCS1Hj0MaZPjDOmH61PmAW1DkaNhpErDh9ogkBHcHg__&amp;Key-Pair-Id=APKAJLP4NHW7VFATZNDQ" media="chunk-stream$RepresentationID$-$Number%05d$.m4s?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wZHguY2RuLm52Lmluc3RydWN0dXJlbWVkaWEuY29tL29yaWdpbmFscy9vLXJEZ3Vod1RuS3A4ajk0NkZNVEZlNXpyd01tQkhrWE0vdHJhbnNjb2RpbmdzL3QtZnVIU0NDYVJEWjcyUTg0UU41Qmp2MnlwN28xOGlRaC8qLm00cyIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2MDAzMTUxNn19fV19&amp;Signature=BGQ5naOI8qHlDtNeBoINuViA917NXtlZbJZiiSBIcfwri9Mc0ROew813xNd1itDD0MfSiEPX3ODtRPWMlwKJi4Oy-oCzl2-vcZcDQD4UFH94svnBxwDmek9gdRVT46NPB8enK7V920FjPgL-YqZzeyzeIg0HzAS3O1Zcjktt9ACXsW3vO6wv7cN9OLVFItmG5bkgkaLuWpC6yw0KaBhT5JcQ3qxr4jtQBlG3XOmDqyG1Fe55AlGVlSQwbMpxcpgRzLX2xubm-4B~NHYVAs3Qh-0kWqMVFyG9Xcp21QrKy7hBGCS1Hj0MaZPjDOmH61PmAW1DkaNhpErDh9ogkBHcHg__&amp;Key-Pair-Id=APKAJLP4NHW7VFATZNDQ" startNumber="1">
+          <SegmentTimeline>
+            <S t="0" d="191488"/>
+            <S d="192512" r="1"/>
+            <S d="191488"/>
+            <S d="192512"/>
+            <S d="147792"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
