@@ -146,18 +146,28 @@ td.day {
 
 /* PAGE FORMATTING STYLES */
 body {
-  font-family: Georgia, serif;
-  font-size: 100%;
-  line-height: 175%;
-  margin: 0 15% 0;
-  background-color: rgb(210 220 157);
-
-}
+            font-family: Georgia, serif;
+            line-height: 1.75;
+            background-color:#cdd7ae;
+            background-image: url(photos/bullseye.png);
+            background-position: top center;
+            background-attachment: fixed;
+        }
+h1 {
+            font: 400 2.5rem "Julius Sans One", Verdana, sans-serif;
+            color: #993399;
+            text-shadow: .1em .1em .05em gainsboro;
+        }
 header {
-  margin-top: 0;
-  padding: 3em 1em 2em 1em;
-  text-align: center;
   background-color: rgb(255 255 255 / .5);
+  text-align: center;
+            }
+header {
+  background-image:
+    url(photos/blackgoose.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: center;
+  background-size: 10em;
 }
 header ul li {
   margin-bottom: .5rem;
@@ -182,11 +192,8 @@ footer {
         height: 40px;
     } 
     
+
 /* TEXT STYLES */
-h1 {
-    font: bold 2em Georgia, serif;
-    color: #939;
-}
 h2 {
   font-size: 1em;
   text-transform: uppercase;
