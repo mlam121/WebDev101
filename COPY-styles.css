@@ -6,14 +6,8 @@ body {
             background-position: top center;
             background-attachment: fixed;
         }
-h1 {
-            font: 400 2.5rem "Julius Sans One", Verdana, sans-serif;
-            color: #993399;
-            text-shadow: .1em .1em .05em gainsboro;
-            
-        }
- header {
-                
+
+header {
                 background-color: rgb(255 255 255 / .5);
                 text-align: center;
             }
@@ -25,7 +19,7 @@ header {
   background-size: 10em;
 }
 
-	h1, h2, #info { text-align: center; }
+h1, h2, #info { text-align: center; }
 	
 	html { font-size: 100%; }
 h2 {
@@ -65,10 +59,10 @@ ul {
         padding: 0;
     }
     li {
-        display: inline;
+        display:inline;
         margin: 0 15px;
     }
-footer {  
+ footer {  
         border-top: 1px solid turquoise;
         text-align: center;
         margin-top: 2em;
