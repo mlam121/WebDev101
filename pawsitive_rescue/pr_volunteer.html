@@ -7,26 +7,28 @@
 <title>Volunteer with Pawsitive Rescue</title>
 <link rel="stylesheet" href="pr_styles.css">
 
- <header>
-        <div id="header-container">
-            <span class="org-logo">IMG of logo here<br></span>
-            <span class="org-name">Pawsitive Rescue: Every Paw Deserves a Home</span>
-        </div>
-    </header>
+
 </head>
 
 <body>
+    <header>
+        <div id="header-container">
+            <span class="org-logo"></span>
+            <span class="org-name"><h1>Pawsitive Rescue: Every Paw Deserves a Home</h1></span>  
+        </div>
+    </header>
+
     <div id="volunteer-form">
         <h1>Fill this out now to volunteer!</h1>
         <h4>If you are an animal lover, then come help us out by filling out this volunteering form to ensure your role! Here you can provide and care for our animals who need your help!</h4>
     <form action="pr_volunteer.html" method="post">
-            <label for="name">Name:</label><br>
+            <label for="name"><strong>Name:</strong></label><br>
             <input type="text" id="name" name="name"><br><br>
 
-            <label for="email">Email/Phone Number:</label><br>
+            <label for="email"><strong>Email/Phone Number:</strong></label><br>
             <input type="email" id="email" name="email"><br><br>
 
-            <label for="role">Roles:</label><br>
+            <label for="role"><strong>Roles:</strong></label><br>
                 <select name="roles" size="1">
                     <option>Select a Role</option>
                     <option>Animal Care</option>
@@ -34,7 +36,7 @@
                     <option>Office Help</option>
                 </select><br><br>
 
-            <label for="availability">Availability:</label><br><br>
+            <label for="availability"><strong>Availability:</strong></label><br><br>
 
             <input type="radio" id="available" name="availability">
             <label for="available">Weekdays</label><br>
@@ -45,7 +47,7 @@
             <input type="radio" id="unavailable" name="availability">
             <label for="available">Both</label><br><br>
 
-            <label for="interests">Interests:</label><br>
+            <label for="interests"><strong>Interests:</strong></label><br>
             <ul>
                 <li><label><input type="checkbox" name="Interest]" value="Dog Walking"> Dog Walking</label></li>
                 <li><label><input type="checkbox" name="Interests[]" value="Cat Care"> Cat Care</label></li>
@@ -53,10 +55,11 @@
                 <li><label><input type="checkbox" name="Interest[]" value="Fundraising"> Fundraising</label></li>
             </ul>
 
-            <label for="comments">Comments:</label><br><br>
+            <label for="comments"><strong>Comments:</strong></label><br><br>
             <textarea id="comments" name="comments" rows="5" cols="50" placeholder="Any additional comments you'd like to share with us"></textarea><br><br>
 
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit"><br><br>
+    </form>
     </div>
 
 <footer id="footer-container">
