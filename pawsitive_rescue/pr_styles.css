@@ -1,0 +1,11 @@
+body {
+    font-family: Arial;
+    line-height: 1.75;
+    background-color: #5BA4A4;
+}
+header {
+    background-image: url(icon/rescue-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10em;
+}

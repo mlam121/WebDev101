@@ -4,9 +4,87 @@
 <head>
 <meta charset="utf-8">
 
-<title>TITLE</title>
+<title>Volunteer with Pawsitive Rescue</title>
 <link rel="stylesheet" href="pr_styles.css">
 
+ <header>
+        <div id="header-container">
+            <span class="org-logo">IMG of logo here<br></span>
+            <span class="org-name">Pawsitive Rescue: Every Paw Deserves a Home</span>
+        </div>
+    </header>
 </head>
+
+<body>
+    <div id="volunteer-form">
+        <h1>Fill this out now to volunteer!</h1>
+        <h4>If you are an animal lover, then come help us out by filling out this volunteering form to ensure your role! Here you can provide and care for our animals who need your help!</h4>
+    <form action="pr_volunteer.html" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email/Phone Number:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="role">Roles:</label><br>
+                <select name="roles" size="1">
+                    <option>Select a Role</option>
+                    <option>Animal Care</option>
+                    <option>Event Support</option>
+                    <option>Office Help</option>
+                </select><br><br>
+
+            <label for="availability">Availability:</label><br><br>
+
+            <input type="radio" id="available" name="availability">
+            <label for="available">Weekdays</label><br>
+
+            <input type="radio" id="unavailable" name="availability">
+            <label for="available">Weekends</label><br>
+
+            <input type="radio" id="unavailable" name="availability">
+            <label for="available">Both</label><br><br>
+
+            <label for="interests">Interests:</label><br>
+            <ul>
+                <li><label><input type="checkbox" name="Interest]" value="Dog Walking"> Dog Walking</label></li>
+                <li><label><input type="checkbox" name="Interests[]" value="Cat Care"> Cat Care</label></li>
+                <li><label><input type="checkbox" name="Interests[]" value="Fostering"> Fostering</label></li>
+                <li><label><input type="checkbox" name="Interest[]" value="Fundraising"> Fundraising</label></li>
+            </ul>
+
+            <label for="comments">Comments:</label><br><br>
+            <textarea id="comments" name="comments" rows="5" cols="50" placeholder="Any additional comments you'd like to share with us"></textarea><br><br>
+
+            <input type="submit" value="Submit">
+    </div>
+
+<footer id="footer-container">
+            <span class="footer-nav">
+                <nav id="main-nav" class="nav-list nav-link">
+                <ul>
+                    <li><a href="pr_index.html">Home</a></li>
+                    <li><a href="pr_about.html">About Us</a></li>
+                    <li><a href="pr_adopt.html">Adoptable Pets</a></li>
+                    <li><a href="pr_events.html">Events & Media</a></li>
+                    <li><a href="pr_volunteer.html">Volunteer Opportunities</a></li>
+                    <li><a href="pr_contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            </span>
+
+            <span class="contact-info">Contact us at: contact@pawsitiverescue.org</span>
+
+
+            <span class="social-media">
+                <ul>
+                    <li><a href="https://www.facebook.com/" alt="Facebook">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/" alt="Instagram">Instagram</a></li>
+                    <li><a href="https://x.com/" alt="Twitter">X/Twitter</a></li>
+                </ul></span>
+
+            <span class="copyright"><p><small>&copy; 2024 Black Goose Bistro</small></p></span>
+</footer>
+</body>
 
 </html>
