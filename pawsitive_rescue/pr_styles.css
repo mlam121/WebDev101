@@ -86,6 +86,7 @@ form {
 }
 footer {
     background-color: #C06C48;
+    border-width: 2px;
     color: #FFF9E6;
     text-align: center;
     padding: 10px 0;
@@ -107,4 +108,41 @@ table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 10px;
+}
+a:link {
+    color:#FFF9E6;
+    text-decoration: none;
+    border-color:#5BA4A4;
+}
+a:hover, a:focus {
+    border-color:#FFF9E6;
+    background-color: #3B3B3B;
+    text-decoration: underline;
+    border: 2px transparent 25%;
+    padding: 5px;
+}
+a:visited {
+    color:#FFF9E6;
+}
+a:active {
+    border-color:#3B3B3B;
+    text-decoration: underline;
+    border: 2px transparent 25%;
+    padding: 5px;
+}
+thead {
+    background-color: #C06C48;
+    color: #3B3B3B;
+}
+tbody tr:nth-child(even) {
+    background-color: #FFF9E6;
+    color:#3B3B3B
+}
+tbody tr:nth-child(odd) {
+    background-color: #FFFFF9;
+    color:#3B3B3B;
+}
+tbody tr:nth-last-child(1) {
+    color: #3B3B3B;
+    font-weight: bold;
 }
