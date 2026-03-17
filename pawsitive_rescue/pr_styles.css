@@ -6,11 +6,19 @@ body {
 header {
     background-image: url(icons/rescue-logo.png);
     background-repeat: no-repeat, no-repeat;
-    background-position: top center;
+    background-position: bottom center;
     height: 200px;
     background-size: 10em;  
     background-color: #C06C48;
-    
+}
+div#header-container {
+    background-color: #C06C48;
+    color:#FFF9E6;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    font-size: 1.5em;
+    font: arial;
+    text-align: center;
 }
 header h1 {
     text-align: center;
